@@ -1,0 +1,33 @@
+{
+  "name": "serverless-api",
+  "version": "1.0.0",
+  "description": "A serverless REST API built with AWS Lambda, API Gateway, and DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js",
+    "deploy": "scripts/deploy.sh",
+    "deploy:dev": "scripts/deploy.sh dev",
+    "deploy:test": "scripts/deploy.sh test",
+    "deploy:prod": "scripts/deploy.sh prod",
+    "start": "sam local start-api"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "serverless",
+    "api",
+    "dynamodb"
+  ],
+  "author": "DevOps Demo User",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.1087.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "sinon": "^12.0.1"
+  },
+  "dependencies": {
+    "aws-xray-sdk": "^3.3.4",
+    "uuid": "^8.3.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "common-layer",
+  "version": "1.0.0",
+  "description": "Common utilities for Lambda functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "layer"
+  ],
+  "author": "DevOps Demo User",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1087.0",
+    "aws-xray-sdk": "^3.3.4",
+    "uuid": "^8.3.2"
+  }
+}
