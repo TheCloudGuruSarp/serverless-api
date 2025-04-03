@@ -6,6 +6,11 @@ A scalable, serverless REST API built with AWS Lambda, API Gateway, and DynamoDB
 
 ---
 
+![DevOps Pipeline](https://img.shields.io/badge/DevOps-Pipeline-blue)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Ready-brightgreen)
+![Terraform](https://img.shields.io/badge/Infrastructure-Terraform-purple)
+![Monitoring](https://img.shields.io/badge/Monitoring-Prometheus-orange)
+
 ## Architecture
 
 This project implements a serverless architecture using AWS Lambda functions for business logic, API Gateway for HTTP request handling, and DynamoDB for data storage.
