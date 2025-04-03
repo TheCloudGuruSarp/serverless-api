@@ -2,6 +2,10 @@
 
 A scalable, serverless REST API built with AWS Lambda, API Gateway, and DynamoDB.
 
+## ✨ Developed by Sarper ✨
+
+---
+
 ## Architecture
 
 This project implements a serverless architecture using AWS Lambda functions for business logic, API Gateway for HTTP request handling, and DynamoDB for data storage.
